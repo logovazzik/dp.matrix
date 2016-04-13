@@ -811,9 +811,19 @@ body {
   height: 400px;
   background: #008380;
   color: white;
-  font-size: 30px;
+
   text-align: center;
+    white-space: nowrap;
+    padding: 10px;
+    font-size:0;
 }
+.b-grid-cell__inner span {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+      font-size: 20px;
+}
+
 .b-grid-cell__inner:before {
   display: inline-block;
   vertical-align: middle;
